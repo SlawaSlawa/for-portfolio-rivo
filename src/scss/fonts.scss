@@ -1,0 +1,209 @@
+// @font-face {
+//     font-family: "Arial Rounded MT";
+//     src:
+//         url("../fonts/arial/Arial-Rounded-MT/ArialRoundedMT.woff2")
+//             format("woff2"),
+//         url("../fonts/arial/Arial-Rounded-MT/ArialRoundedMT.woff")
+//             format("woff");
+//     font-weight: 400;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face {
+//     font-family: "Arial Rounded MT";
+//     src:
+//         url("../fonts/arial/Arial-Rounded-MT/ArialRoundedMT-Light.woff2")
+//             format("woff2"),
+//         url("../fonts/arial/Arial-Rounded-MT/ArialRoundedMT-Light.woff")
+//             format("woff");
+//     font-weight: 300;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+@font-face {
+    font-family: "Arial Rounded MT";
+    src:
+        url("../fonts/arial/Arial-Rounded-MT/ArialRoundedMTBold.woff2")
+            format("woff2"),
+        url("ArialRoundedMTBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+// @font-face {
+//     font-family: "Arial Rounded MT";
+//     src:
+//         url("ArialRoundedMTBold_1.woff2") format("woff2"),
+//         url("ArialRoundedMTBold_1.woff") format("woff");
+//     font-weight: bold;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face {
+//     font-family: "Arial Rounded MT";
+//     src:
+//         url("ArialRoundedMTBold.woff2") format("woff2"),
+//         url("ArialRoundedMTBold.woff") format("woff");
+//     font-weight: bold;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+@font-face {
+    font-family: "Elephant";
+    src:
+        url("../fonts/elephant-regular/elephant-regular.woff2") format("woff2"),
+        url("../fonts/elephant-regular/elephant-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// @font-face {
+//     font-family: 'Fanwoodtext';
+//     src: url('fanwoodtext.woff2') format('woff2'),
+//         url('fanwoodtext.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("../fonts/poppins/poppins_medium/poppins_medium.eot"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/poppins/poppins_medium/poppins_medium.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */ url("../fonts/poppins/poppins_medium/poppins_medium.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */
+            url("../fonts/poppins/poppins_medium/poppins_medium.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/poppins/poppins_medium/poppins_medium.ttf")
+            format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/poppins/poppins_medium/poppins_medium.svg#poppins_medium")
+            format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("../fonts/poppins/poppins_regular/poppins_regular.eot"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/poppins/poppins_regular/poppins_regular.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */
+            url("../fonts/poppins/poppins_regular/poppins_regular.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */
+            url("../fonts/poppins/poppins_regular/poppins_regular.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/poppins/poppins_regular/poppins_regular.ttf")
+            format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/poppins/poppins_regular/poppins_regular.svg#poppins_regular")
+            format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../fonts/poppins/poppins_semibold/poppins_semibold.eot"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/poppins/poppins_semibold/poppins_semibold.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */
+            url("../fonts/poppins/poppins_semibold/poppins_semibold.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */
+            url("../fonts/poppins/poppins_semibold/poppins_semibold.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/poppins/poppins_semibold/poppins_semibold.ttf")
+            format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/poppins/poppins_semibold/poppins_semibold.svg#poppins_semibold")
+            format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: "Roboto Slab Bold";
+    src: url("../fonts/roboto/roboto_slab_bold/roboto_slab_bold.eot"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/roboto/roboto_slab_bold/roboto_slab_bold.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */
+            url("../fonts/roboto/roboto_slab_bold/roboto_slab_bold.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */
+            url("../fonts/roboto/roboto_slab_bold/roboto_slab_bold.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/roboto/roboto_slab_bold/roboto_slab_bold.ttf")
+            format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/roboto/roboto_slab_bold/roboto_slab_bold.svg#roboto_slab_bold")
+            format("svg");
+}
+
+@font-face {
+    font-family: "RobotoSerif8ptExtraExpanded-SemiBold";
+    src: url("../fonts/roboto/robotoserif8ptextraexpanded-semibold/robotoserif8ptextraexpanded-semibold.eot");
+    src:
+        url("../fonts/roboto/robotoserif8ptextraexpanded-semibold/robotoserif8ptextraexpanded-semibold.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */
+            url("../fonts/roboto/robotoserif8ptextraexpanded-semibold/robotoserif8ptextraexpanded-semibold.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */
+            url("../fonts/roboto/robotoserif8ptextraexpanded-semibold/robotoserif8ptextraexpanded-semibold.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/roboto/robotoserif8ptextraexpanded-semibold/robotoserif8ptextraexpanded-semibold.ttf")
+            format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/roboto/robotoserif8ptextraexpanded-semibold/robotoserif8ptextraexpanded-semibold.svg#robotoserif8ptextraexpanded-semibold")
+            format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: "RobotoSlab-Medium";
+    src: url("../fonts/roboto/roboto_slab_bold/robotoslab-medium.eot"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/roboto/roboto_slab_bold/robotoslab-medium.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */
+            url("../fonts/roboto/roboto_slab_bold/robotoslab-medium.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */
+            url("../fonts/roboto/roboto_slab_bold/robotoslab-medium.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/roboto/roboto_slab_bold/robotoslab-medium.ttf")
+            format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/roboto/roboto_slab_bold/robotoslab-medium.svg#robotoslab-medium")
+            format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: "Rufina-Bold";
+    src: url("../fonts/rufina-bold/rufina-bold.eot"); /* IE 9 Compatibility Mode */
+    src:
+        url("../fonts/rufina-bold/rufina-bold.eot?#iefix")
+            format("embedded-opentype"),
+        /* IE < 9 */ url("../fonts/rufina-bold/rufina-bold.woff2")
+            format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/rufina-bold/rufina-bold.woff")
+            format("woff"),
+        /* Firefox >= 3.6, any other modern browser */
+            url("../fonts/rufina-bold/rufina-bold.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+            url("../fonts/rufina-bold/rufina-bold.svg#rufina-bold")
+            format("svg"); /* Chrome < 4, Legacy iOS */
+}

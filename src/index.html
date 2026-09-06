@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rivo</title>
+        <link rel="stylesheet" href="libs/normalize.css" />
+        <link rel="stylesheet" href="css/index.min.css" />
+        <script src="js/index.min.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">Rivo</div>
+                    <div class="header__wrapper">
+                        <div class="burger-btn">
+                            <div class="burger-btn__line"></div>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Shop</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Features</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__buttons">
+                            <button class="header__btn-cart">
+                                <div class="circle"></div>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                                    />
+                                </svg>
+                            </button>
+                            <button class="button header__btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main dn">
+            <section class="hero">
+                <div class="container">
+                    <h1 class="hero__title">
+                        Discover and Find Your Own Fashion!
+                    </h1>
+                    <p class="hero__description">
+                        Explore our curated collection of stylish clothing and
+                        accessories tailored to your unique taste.
+                    </p>
+                    <button class="button">Explore Now</button>
+                </div>
+            </section>
+
+            <section class="section best">
+                <div class="container">
+                    <h2 class="title">Best selling</h2>
+                    <p class="description">
+                        Get in on the trend with our curated selection of
+                        best-selling styles.
+                    </p>
+                    <div class="best__wrapper">
+                        <ul class="best__list">
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/best-1.jpg"
+                                        alt="Long Sleeve"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Regular Fit Long Sleeve Top
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $38.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            5.0
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/best-2.jpg"
+                                        alt="Jacket"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Black Crop Tailored Jacket
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $62.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            4.9
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/best-3.jpg"
+                                        alt="Textured Sunset"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Textured Sunset Shirt
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $49.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            5.0
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="button button--light button--more">
+                        See all
+                        <img
+                            src="./images/icons/array-right-icon.svg"
+                            alt="icon - right array"
+                            class="button__icon"
+                        />
+                    </button>
+                </div>
+            </section>
+
+            <section class="section products">
+                <div class="container">
+                    <h2 class="title">Our products</h2>
+                    <ul class="products__filter">
+                        <li class="products__filter-item">Sale</li>
+                        <li
+                            class="products__filter-item products__filter-item--active"
+                        >
+                            Hot
+                        </li>
+                        <li class="products__filter-item">New Arrivals</li>
+                        <li class="products__filter-item">Accessories</li>
+                    </ul>
+                    <div class="products__wrapper">
+                        <ul class="products__list">
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-1.jpg"
+                                        alt="Shirt"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Spread Collar Shirt
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $48.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            5.0
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-2.jpg"
+                                        alt="Textured Sunset"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        White Solid Formal Shirt
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $39.00
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            4.9
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-3.jpg"
+                                        alt="Blouse"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Shine On Me Blouse
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $42.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            4.8
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/best-4.jpg"
+                                        alt="Padded Jacket"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Gray Solid Padded Jacket
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $32.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            4.7
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-5.jpg"
+                                        alt="T-shirt"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Printed Loose T-shirt
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $39.99
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            5.0
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-6.jpg"
+                                        alt="Shirt"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Summer Wind Crop Shirt
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $39.95
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            4.7
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-7.jpg"
+                                        alt="Jacket"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Tailored Jacket
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $46.00
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            4.9
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="product-item">
+                                <div class="product-item__img-wrapper">
+                                    <img
+                                        src="./images/best/pr-8.jpg"
+                                        alt="T-shirt"
+                                        class="product-item__img"
+                                    />
+                                </div>
+                                <div class="product-item__info">
+                                    <h3 class="product-item__info-title">
+                                        Solid Round Neck T-shirt
+                                    </h3>
+                                    <div
+                                        class="product-item__info-price-rating"
+                                    >
+                                        <div class="product-item__info-price">
+                                            $36.00
+                                        </div>
+                                        <div class="product-item__info-rating">
+                                            5.0
+                                            <img
+                                                src="./images/icons/fi-ss-star.svg"
+                                                alt="Icon - Star"
+                                                class="product-item__info-rating-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section offer">
+                <div class="container">
+                    <div class="offer__wrapper">
+                        <h2 class="title">Exclusive offer</h2>
+                        <p class="description">
+                            Unlock the ultimate style upgrade with our exclusive
+                            offer Enjoy savings of up to 40% off on our latest
+                            New Arrivals
+                        </p>
+                        <div class="timer">
+                            <div class="timer__item" id="timer-days">
+                                <span class="timer__num">06</span>
+                                <span class="timer__text">Days</span>
+                            </div>
+                            <div class="timer__item" id="timer-hours">
+                                <span class="timer__num">18</span>
+                                <span class="timer__text">Hours</span>
+                            </div>
+                            <div class="timer__item" id="timer-min">
+                                <span class="timer__num">48</span>
+                                <span class="timer__text">Min</span>
+                            </div>
+                            <button class="button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section designer">
+                <div class="container">
+                    <h2 class="title">Designer Clothes For You</h2>
+                    <p class="description">
+                        Immerse yourself in the world of luxury fashion with our
+                        meticulously crafted designer clothes!
+                    </p>
+                    <div class="designer__wrapper">
+                        <div class="designer__item">
+                            <div class="designer__img-wrapper">
+                                <img
+                                    src="./images/designer/designer-1.jpg"
+                                    alt="Accessories"
+                                    class="designer__img"
+                                />
+                            </div>
+                            <h3 class="designer__item-title">Accessories</h3>
+                            <p class="designer__item-description">
+                                Complete your ensemble with designer accessories
+                                such as handbags, scarves, belts, and hats.
+                            </p>
+                        </div>
+
+                        <div class="designer__item">
+                            <div class="designer__img-wrapper">
+                                <img
+                                    src="./images/designer/designer-2.jpg"
+                                    alt="Dresses"
+                                    class="designer__img"
+                                />
+                            </div>
+                            <h3 class="designer__item-title">Dresses</h3>
+                            <p class="designer__item-description">
+                                Explore a stunning range of designer dresses,
+                                including evening gowns and chic day dresses.
+                            </p>
+                        </div>
+
+                        <div class="designer__item">
+                            <div class="designer__img-wrapper">
+                                <img
+                                    src="./images/designer/designer-3.jpg"
+                                    alt="Outerwear"
+                                    class="designer__img"
+                                />
+                            </div>
+                            <h3 class="designer__item-title">Outerwear</h3>
+                            <p class="designer__item-description">
+                                Browse luxurious designer coats, jackets, and
+                                blazers to stay stylishly warm during colder
+                                seasons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section feedback">
+                <h2 class="title">Feedback Corner</h2>
+
+                <div class="feedback__slider">
+                    <div class="feedback__slider-item">
+                        <h3 class="feedback__slider-title">Emily Wilson</h3>
+                        <p class="feedback__slider-text">
+                            The customer experience was exceptional from start
+                            to finish. The website is user-friendly, the
+                            checkout process was smooth, and the clothes I
+                            ordered fit perfectly. I'm beyond satisfied!
+                        </p>
+                    </div>
+
+                    <div class="feedback__slider-item">
+                        <h3 class="feedback__slider-title">Sarah Thompson</h3>
+                        <p class="feedback__slider-text">
+                            I absolutely love the quality and style of the
+                            clothing I purchased from this website. customer
+                            service was outstanding, and I received my order
+                            quickly. Highly recommended!
+                        </p>
+                    </div>
+
+                    <div class="feedback__slider-item">
+                        <h3 class="feedback__slider-title">Olivia Martinez</h3>
+                        <p class="feedback__slider-text">
+                            I had a great experience shopping on this website.
+                            The clothes I bought are fashionable and
+                            comfortable. Highly satisfied!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer dn">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__item">
+                        <div class="footer__logo">Rivo</div>
+                        <div class="footer__socials">
+                            <div class="footer__socials-title">
+                                Social Media
+                            </div>
+                            <div class="footer__socials-icons">
+                                <a href="#" class="footer__socials-link"></a>
+                                <a href="#" class="footer__socials-link"></a>
+                                <a href="#" class="footer__socials-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__item">
+                        <div class="footer__item-title">SHOP</div>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >Products</a
+                                >
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >Overview</a
+                                >
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >Releases</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <div class="footer__item-title">Company</div>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >About us</a
+                                >
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link">News</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="#" class="footer__item-link"
+                                    >Support</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <div class="footer__item-title">Stay up to date</div>
+
+                        <form class="footer__item-form">
+                            <input
+                                type="email"
+                                class="footer__item-input"
+                                placeholder="Enter your email"
+                            />
+                            <button class="button footer__button">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer__wrapper">
+                    <div class="footer__decor"></div>
+                    <div class="footer__wrapper">
+                        <a href="#" class="footer__link footer__link--bold"
+                            >Terms</a
+                        >
+                        <a href="#" class="footer__link footer__link--bold"
+                            >Privacy</a
+                        >
+                        <a href="#" class="footer__link footer__link--bold"
+                            >Cookies</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

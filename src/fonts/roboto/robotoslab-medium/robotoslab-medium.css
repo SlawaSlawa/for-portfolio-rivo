@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'RobotoSlab-Medium';
+	src: url('../fonts/robotoslab-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/robotoslab-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/robotoslab-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/robotoslab-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/robotoslab-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/robotoslab-medium.svg#robotoslab-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
