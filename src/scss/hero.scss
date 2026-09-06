@@ -1,0 +1,127 @@
+.hero {
+    padding: 166px 0;
+    background-color: $contrast-color;
+}
+
+.hero__wrapper-bg {
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: auto 100%;
+}
+
+.hero__info {
+    max-width: 649px;
+    padding-bottom: 60px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-family: "Rufina-Bold", sans-serif;
+    font-size: 86px;
+    color: $title-color;
+}
+.hero__description {
+    margin-bottom: 54px;
+    max-width: 565px;
+    font-family: "Poppins Medium", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2.2;
+    color: $slogan-color;
+}
+
+@media screen and (max-width: 1096px) {
+    .hero {
+        padding: 60px 0;
+    }
+}
+
+@media screen and (max-width: 982px) {
+    .hero__title {
+        font-size: 68px;
+    }
+    .hero__info {
+        max-width: 580px;
+        padding-bottom: 40px;
+    }
+    .hero__description {
+        max-width: 460px;
+        font-size: 22px;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .hero__wrapper-bg {
+        background-position: right center;
+        background-size: auto 80%;
+    }
+    .hero__info {
+        margin: 0 auto;
+        background-color: rgba($slogan-color, 0.7);
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 3px;
+    }
+    .hero__title {
+        color: $main-color;
+    }
+    .hero__description {
+        max-width: 460px;
+        font-size: 22px;
+        line-height: 2;
+        color: $main-color;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .hero {
+        padding-top: 10px;
+    }
+    .hero__title {
+        font-size: 60px;
+    }
+    .hero__description {
+        margin-bottom: 20px;
+        line-height: 1.8;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .hero__title {
+        text-align: center;
+        font-size: 48px;
+    }
+    .hero__description {
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+    .button--hero {
+        display: block;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero__title {
+        text-align: center;
+        font-size: 40px;
+    }
+    .button--hero {
+        display: block;
+        margin: 0 auto;
+    }
+    .hero__wrapper-bg {
+        background-position: center;
+        background-size: auto 92%;
+    }
+}
