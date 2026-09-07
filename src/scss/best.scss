@@ -1,0 +1,44 @@
+.best {
+}
+
+.best__wrapper {
+    margin-bottom: 30px;
+}
+.best__list {
+    display: flex;
+    // flex-wrap: wrap;
+    gap: 43px;
+}
+
+.button__best {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .best__list {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 790px) {
+    .best__list {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .product-item--best {
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 490px) {
+    .best__list {
+        flex-wrap: wrap;
+        gap: 15px 0;
+    }
+    .product-item--best {
+        max-width: 100%;
+        width: 100%;
+    }
+}
