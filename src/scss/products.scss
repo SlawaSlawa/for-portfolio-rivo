@@ -1,0 +1,122 @@
+.products {
+    padding-top: calc(185px - 114px);
+}
+
+.title__products {
+    margin-bottom: 70px;
+}
+
+.products__filter {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 80px;
+    padding: 0 15px;
+}
+.products__filter-item {
+    padding-bottom: 3px;
+    font-family: "Poppins Medium", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #454545;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+.products__filter-item:hover {
+    border-bottom: 2px solid $title-color;
+    color: $title-color;
+}
+.products__filter-item--active {
+    color: $title-color;
+    border-bottom: 2px solid $title-color;
+}
+.products__wrapper {
+}
+.products__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+@media (max-width: 1269px) {
+    .products__product-item {
+    }
+}
+
+@media (max-width: 1096px) {
+    .products {
+        padding-top: calc(100px - 71px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .products__product-item {
+        .product-item__info-title {
+            font-size: 18px;
+        }
+        .product-item__info-price-rating {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .products {
+        padding-top: calc(80px - 71px);
+    }
+    .products__filter {
+        margin-bottom: 60px;
+    }
+    .products__filter-item {
+        font-size: 18px;
+    }
+    .products__list {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 790px) {
+    .products__filter {
+        gap: 40px;
+    }
+    .products__list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 740px) {
+    .products {
+        padding-top: calc(71px - 52px);
+    }
+}
+
+@media (max-width: 600px) {
+    .products__filter {
+        gap: 20px;
+    }
+    .products__filter-item {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 490px) {
+    .products {
+        padding-top: calc(71px - 48px);
+    }
+    .products__filter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .products__filter-item {
+    }
+    .products__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
