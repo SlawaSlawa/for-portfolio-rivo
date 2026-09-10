@@ -1,0 +1,114 @@
+.offer {
+    margin: calc(114px / 2) 0;
+    padding: 75px 0;
+    background-color: $contrast-color;
+    background-image: url(../images/offer-bg.png);
+    background-repeat: no-repeat;
+    background-position: 41px 0;
+    background-size: auto 100%;
+}
+
+.offer__wrapper {
+    max-width: calc(587px + 121px);
+    margin-left: auto;
+    padding-right: 121px;
+}
+
+.title__offer {
+    margin-bottom: 20px;
+    font-size: 46px;
+    text-align: left;
+}
+
+.description__offer {
+    margin-bottom: 40px;
+    text-align: left;
+    line-height: 1.67;
+    letter-spacing: 0;
+}
+
+.button__offer {
+    margin-top: 41px;
+    padding: 20px 70px;
+}
+
+@media (max-width: 1096px) {
+    .offer__wrapper {
+        max-width: 500px;
+        margin-left: auto;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 900px) {
+    .offer {
+        background-position: left 0;
+    }
+    .title__offer {
+        color: $main-color;
+    }
+    .description__offer {
+        color: $main-color;
+    }
+    .timer__inner {
+        justify-content: flex-end;
+    }
+    .button__offer {
+        display: block;
+        margin-left: auto;
+        font-size: 18px;
+    }
+    .offer__wrapper {
+        max-width: 392px;
+        background-color: rgba(38, 125, 73, 0.7);
+        margin-right: 15px;
+        padding: 15px;
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 740px) {
+    .offer__wrapper {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    .timer__inner {
+        justify-content: center;
+    }
+    .button__offer {
+        margin: 41px auto 0 auto;
+        padding: 8px 34px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .offer__wrapper {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 490px) {
+    .offer {
+        background-position: center;
+    }
+    .title__offer {
+        text-align: center;
+    }
+    .description__offer {
+        text-align: center;
+    }
+    .timer__inner {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .timer__item {
+        width: 80px;
+        height: 60px;
+    }
+    .timer__num {
+        font-size: 20px;
+    }
+}

@@ -209,6 +209,37 @@ img {
     height: 24px;
 }
 
+.timer {
+}
+
+.timer__inner {
+    display: flex;
+    gap: 35px;
+}
+
+.timer__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: $main-color;
+    color: $title-color;
+    border-radius: 3px;
+    box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.05);
+}
+.timer__num {
+    margin-bottom: 1px;
+    font-family: "Poppins SemiBold", serif;
+    font-size: 32px;
+}
+.timer__text {
+    margin-bottom: 1px;
+    font-family: "Poppins Medium", serif;
+    font-size: 16px;
+}
+
 @media (max-width: 1096px) {
     .section {
         padding: 100px 0;
