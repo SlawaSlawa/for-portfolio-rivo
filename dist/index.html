@@ -22,8 +22,8 @@
             href="images/favicon/apple-touch-icon.png"
         />
         <link rel="manifest" href="images/favicon/site.webmanifest" />
-        <link rel="stylesheet" href="libs/normalize.css" />
         <link rel="stylesheet" href="css/index.css" />
+        <script src="libs/swiper/swiper-bundle.min.js" defer></script>
         <script src="js/index.min.js" defer></script>
     </head>
     <body>
@@ -507,7 +507,7 @@
                 </section>
             </div>
 
-            <section class="section designer dn">
+            <section class="section designer">
                 <div class="container">
                     <h2 class="title">Designer Clothes For You</h2>
                     <p class="description">
@@ -515,86 +515,145 @@
                         meticulously crafted designer clothes!
                     </p>
                     <div class="designer__wrapper">
-                        <div class="designer__item">
-                            <div class="designer__img-wrapper">
-                                <img
-                                    src="./images/designer/designer-1.jpg"
-                                    alt="Accessories"
-                                    class="designer__img"
-                                />
-                            </div>
-                            <h3 class="designer__item-title">Accessories</h3>
-                            <p class="designer__item-description">
-                                Complete your ensemble with designer accessories
-                                such as handbags, scarves, belts, and hats.
-                            </p>
-                        </div>
+                        <ul class="designer__list">
+                            <li class="product-item designer__item">
+                                <div class="designer__img-wrapper">
+                                    <img
+                                        src="./images/designer/designer-1.jpg"
+                                        alt="Accessories"
+                                        class="designer__img"
+                                    />
+                                </div>
+                                <h3 class="designer__item-title">
+                                    Accessories
+                                </h3>
+                                <p class="designer__item-description">
+                                    Complete your ensemble with designer
+                                    accessories such as handbags, scarves,
+                                    belts, and hats.
+                                </p>
+                            </li>
 
-                        <div class="designer__item">
-                            <div class="designer__img-wrapper">
-                                <img
-                                    src="./images/designer/designer-2.jpg"
-                                    alt="Dresses"
-                                    class="designer__img"
-                                />
-                            </div>
-                            <h3 class="designer__item-title">Dresses</h3>
-                            <p class="designer__item-description">
-                                Explore a stunning range of designer dresses,
-                                including evening gowns and chic day dresses.
-                            </p>
-                        </div>
+                            <li class="product-item designer__item">
+                                <div class="designer__img-wrapper">
+                                    <img
+                                        src="./images/designer/designer-2.jpg"
+                                        alt="Dresses"
+                                        class="designer__img"
+                                    />
+                                </div>
+                                <h3 class="designer__item-title">Dresses</h3>
+                                <p class="designer__item-description">
+                                    Explore a stunning range of designer
+                                    dresses, including evening gowns and chic
+                                    day dresses.
+                                </p>
+                            </li>
 
-                        <div class="designer__item">
-                            <div class="designer__img-wrapper">
-                                <img
-                                    src="./images/designer/designer-3.jpg"
-                                    alt="Outerwear"
-                                    class="designer__img"
-                                />
-                            </div>
-                            <h3 class="designer__item-title">Outerwear</h3>
-                            <p class="designer__item-description">
-                                Browse luxurious designer coats, jackets, and
-                                blazers to stay stylishly warm during colder
-                                seasons.
-                            </p>
-                        </div>
+                            <li class="product-item designer__item">
+                                <div class="designer__img-wrapper">
+                                    <img
+                                        src="./images/designer/designer-3.jpg"
+                                        alt="Outerwear"
+                                        class="designer__img"
+                                    />
+                                </div>
+                                <h3 class="designer__item-title">Outerwear</h3>
+                                <p class="designer__item-description">
+                                    Browse luxurious designer coats, jackets,
+                                    and blazers to stay stylishly warm during
+                                    colder seasons.
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
 
-            <section class="section feedback dn">
-                <h2 class="title">Feedback Corner</h2>
+            <section class="section feedback">
+                <div class="container">
+                    <h2 class="title">Feedback Corner</h2>
 
-                <div class="feedback__slider">
-                    <div class="feedback__slider-item">
-                        <h3 class="feedback__slider-title">Emily Wilson</h3>
-                        <p class="feedback__slider-text">
-                            The customer experience was exceptional from start
-                            to finish. The website is user-friendly, the
-                            checkout process was smooth, and the clothes I
-                            ordered fit perfectly. I'm beyond satisfied!
-                        </p>
-                    </div>
+                    <div class="feedback__slider swiper">
+                        <div class="feedback__slider-wrapper swiper-wrapper">
+                            <div class="feedback__slider-item swiper-slide">
+                                <h3 class="feedback__slider-title">
+                                    Emily Wilson
+                                </h3>
+                                <p class="feedback__slider-text">
+                                    The customer experience was exceptional from
+                                    start to finish. The website is
+                                    user-friendly, the checkout process was
+                                    smooth, and the clothes I ordered fit
+                                    perfectly. I'm beyond satisfied!
+                                </p>
+                            </div>
 
-                    <div class="feedback__slider-item">
-                        <h3 class="feedback__slider-title">Sarah Thompson</h3>
-                        <p class="feedback__slider-text">
-                            I absolutely love the quality and style of the
-                            clothing I purchased from this website. customer
-                            service was outstanding, and I received my order
-                            quickly. Highly recommended!
-                        </p>
-                    </div>
+                            <div class="feedback__slider-item swiper-slide">
+                                <h3 class="feedback__slider-title">
+                                    Sarah Thompson
+                                </h3>
+                                <p class="feedback__slider-text">
+                                    I absolutely love the quality and style of
+                                    the clothing I purchased from this website.
+                                    customer service was outstanding, and I
+                                    received my order quickly. Highly
+                                    recommended!
+                                </p>
+                            </div>
 
-                    <div class="feedback__slider-item">
-                        <h3 class="feedback__slider-title">Olivia Martinez</h3>
-                        <p class="feedback__slider-text">
-                            I had a great experience shopping on this website.
-                            The clothes I bought are fashionable and
-                            comfortable. Highly satisfied!
-                        </p>
+                            <div class="feedback__slider-item swiper-slide">
+                                <h3 class="feedback__slider-title">
+                                    Olivia Martinez
+                                </h3>
+                                <p class="feedback__slider-text">
+                                    I had a great experience shopping on this
+                                    website. The clothes I bought are
+                                    fashionable and comfortable. Highly
+                                    satisfied!
+                                </p>
+                            </div>
+
+                            <div class="feedback__slider-item swiper-slide">
+                                <h3 class="feedback__slider-title">
+                                    Olivia Martinez
+                                </h3>
+                                <p class="feedback__slider-text">
+                                    I had a great experience shopping on this
+                                    website. The clothes I bought are
+                                    fashionable and comfortable. Highly
+                                    satisfied!
+                                </p>
+                            </div>
+
+                            <div class="feedback__slider-item swiper-slide">
+                                <h3 class="feedback__slider-title">
+                                    Olivia Martinez
+                                </h3>
+                                <p class="feedback__slider-text">
+                                    I had a great experience shopping on this
+                                    website. The clothes I bought are
+                                    fashionable and comfortable. Highly
+                                    satisfied!
+                                </p>
+                            </div>
+
+                            <div class="feedback__slider-item swiper-slide">
+                                <h3 class="feedback__slider-title">
+                                    Olivia Martinez
+                                </h3>
+                                <p class="feedback__slider-text">
+                                    I had a great experience shopping on this
+                                    website. The clothes I bought are
+                                    fashionable and comfortable. Highly
+                                    satisfied!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feedback__btns-wrapper">
+                            <div class="feedback__btn swiper-button-prev"></div>
+                            <div class="feedback__btn swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </section>

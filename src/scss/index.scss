@@ -1,3 +1,5 @@
+@import "../libs/normalize.css";
+@import "../libs/swiper/swiper-bundle.min.css";
 @import "fonts.scss";
 @import "variables.scss";
 @import "mixins.scss";
@@ -7,3 +9,5 @@
 @import "best.scss";
 @import "products.scss";
 @import "offer.scss";
+@import "designer.scss";
+@import "feedback.scss";
